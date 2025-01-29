@@ -1,11 +1,12 @@
-const currentDate = new Date();
-const formattedDate = currentDate.toDateString();
 
+// Function to update the current UTC time every second
+function updateCurrentTimeUTC() {
+  const currentTimeUTC = new Date().toISOString();
+  document.getElementById('currentTimeUTC').textContent = `Current UTC Time: ${currentTimeUTC}`;
+}
 
-document.getElementById("date-display").textContent = formattedDate;
+// Call the function once to set the initial time
+updateCurrentTimeUTC();
 
-
-
-
-const maintime = new Date();
-
+// Set an interval to update the time every second
+setInterval(updateCurrentTimeUTC, 1000);

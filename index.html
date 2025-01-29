@@ -9,35 +9,46 @@
 </head>
 <body>
   
-<div class="Blog">
-<img src="/images.jpg" alt="" class="img">
-<h3>Abraham Samuel </h3>
-<h4>Front End Developer</h4>
-<p>I’ve always been drawn to the intersection of creativity and technology, which is what makes front-end development so exciting. Building visually appealing, user-friendly websites while solving technical problems is a rewarding challenge. I enjoy creating seamless, interactive experiences that users engage with daily.
+  <div class="profile-container">
+    <!-- Profile Picture -->
+    <img
+      id="profilePicture"
+      data-testid="profilePicture"
+      src="/images.jpg"
+      alt="Profile Picture"
+      width="150"
+      height="150"
+    />
 
-  HNG Internship offers a great opportunity for me to grow in this field. Through real-world projects and hands-on experience with front-end technologies like HTML, CSS, JavaScript, and React, I can sharpen my skills. The internship’s focus on mentorship and peer reviews will help me refine my coding abilities, while collaboration with fellow developers will enhance my teamwork and communication skills.
-  
-  During this internship, I aim to:
-  
-  Improve my technical skills, especially in JavaScript and React.
-  Build a strong portfolio of projects to showcase my work.
-  Enhance my problem-solving abilities by tackling real-world coding challenges.
-  Develop soft skills such as collaboration and communication in a team setting.
-  By the end of the internship, I plan to have significantly advanced my front-end development skills, gained valuable industry insights, and built a professional network to help propel my career forward.
-  
-  The combination of learning, hands-on experience, and mentorship at HNG will be essential in achieving these goals and setting me up for a successful career in front-end development.</p>
+    <!-- Full Name -->
+    <h1 id="fullName" data-testid="fullName">Abraham Samuel</h1>
 
+    <!-- Job Title -->
+    <h2 id="jobTitle" data-testid="jobTitle">Frontend developer</h2>
 
-  <div class="links">
-    <a href=""><i class="bi bi-github"></i></a>
-    <a href=""> <i class="bi bi-filetype-css"></i></a>
-   
+    <!-- Short Bio -->
+    <p id="shortBio" data-testid="shortBio">
+      Passionate frontend developer with experience in building web applications. I enjoy solving problems and collaborating with teams to deliver high-quality web dev. Always eager to learn new technologies and improve my skills.
+    </p>
+
+    <!-- Current Location -->
+    <p id="currentLocation" data-testid="currentLocation">Kwara State, Nigeria</p>
+
+    <!-- Email Address -->
+    <p id="emailAddress" data-testid="emailAddress">abrahamsamuel@gmail.com</p>
+
+    <!-- Social Links -->
+    <div id="socialLinks" data-testid="socialLinks">
+      <a href="https://www.facebook.com/share/1BnGDcmyzd/?mibextid=wwXIfr" target="_blank">Facebook</a>
+      <a href="https://https://github.com/Pandev223" target="_blank">GitHub</a>
+
+    </div>
+
+    <!-- Current Time in UTC -->
+    <p id="currentTimeUTC" data-testid="currentTimeUTC"></p>
   </div>
-  <p id="date-display"></p>
 
-  
-</div>
-
+  <script src="script.js"></script>
 
 
 
